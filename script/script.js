@@ -67,7 +67,7 @@ function next(){
 }
 
 function setImg(){
-        return slider_img.setAttribute("src", "/" + images[i]);
+        return slider_img.setAttribute("src", "images/" + images[i]);
 }
 //image slider end
 //for testimonial
